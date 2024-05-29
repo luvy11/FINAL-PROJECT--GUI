@@ -27,7 +27,7 @@ def main(username):
     class DesignGUIInterface():
         # Method to create a title label
         def title(self, x, y):
-            label = tk.Label(main_frame,bg='#065494', text="EMPLOYEE PERSONAL INFORMATION", fg='white' ,font=("Century Gothic", 50 ,"bold"))
+            label = tk.Label(main_frame,bg='#065494', text="EMPLOYEE PERSONAL INFORMATION ni love joy", fg='white' ,font=("Century Gothic", 50 ,"bold"))
             label.place(x=x, y=y)
             return label
         def frame1(self, x, y):

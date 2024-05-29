@@ -400,7 +400,7 @@ def main(username):
     save_button.config(command=saveData)
     update_button = my_gui_design.button_design(frame, 1563, 1001, 106, 36, "#5CABD7", "white", "UPDATE", ('Century Gothic', 13))
     update_button.config(command=updateData)
-    new_button = my_gui_design.button_design(frame, 1684, 1001, 106, 36, "#0C385E", "white", "NEW", ('Century Gothic', 13))
+    new_button = my_gui_design.button_design(frame, 1684, 1001, 106, 36, "#red", "white", "NEW", ('Century Gothic', 13))
     new_button.config(command=newData)
 
     window.state('zoomed')  # Functionality to keep the page on auto-full screen

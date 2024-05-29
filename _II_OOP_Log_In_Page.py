@@ -81,7 +81,7 @@ def cancelData(): # For Cancel Button
     Password.delete(0, 'end')
     window.destroy()
 # Adding the needed buttons
-log_in_button = gui.button_design(window, 197, 650, 150, 34, "navy blue", "white", "LOG IN", ("Century Gothic", 12, 'bold'))
+log_in_button = gui.button_design(window, 197, 650, 150, 34, "green", "white", "LOG IN", ("Century Gothic", 12, 'bold'))
 log_in_button.config(command=logIn)
 cancel_button = gui.button_design(window, 367, 650, 150, 34, "#1E6CAB", "white", "CANCEL", ("Century Gothic", 12, 'bold'))
 cancel_button.config(command=cancelData)

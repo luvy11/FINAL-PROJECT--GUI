@@ -288,11 +288,11 @@ def main(username):
                                                             Paydate, Employee_Number, Contact_Number, Email, Other_Social_Media, Social_Media_Account_Id, Address_Line_1, Address_Line_2, City_Municipality, State_Province, 
                                                             Country, Zip_Code, Picture_Path, Username, Password, image_data)
                                                             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"""
-        query2 = """INSERT INTO 1.employee_personal_information_tbl (First_Name, Middle_Name, Last_Name, Suffix, Date_of_Birth, Gender, Nationality, Civil_Status, Department, Designation, Qualified_Dep_Status, Employee_Status, 
+        query2 = """INSERT INTO I_employee_personal_information_tbl (First_Name, Middle_Name, Last_Name, Suffix, Date_of_Birth, Gender, Nationality, Civil_Status, Department, Designation, Qualified_Dep_Status, Employee_Status, 
                                                             Paydate, Employee_Number, Contact_Number, Email, Other_Social_Media, Social_Media_Account_Id, Address_Line_1, Address_Line_2, City_Municipality, State_Province, 
                                                             Country, Zip_Code, Picture_Path)
                                                             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"""
-        query3 = """INSERT INTO 3.employee_user_account_information_tbl (Username, Password, Employee_Number) VALUES (?,?,?)"""
+        query3 = """INSERT INTO III_employee_user_account_information_tbl (Username, Password, Employee_Number) VALUES (?,?,?)"""
         query1_tuple = [First_Name.get(), Middle_Name.get(), Last_Name.get(), Suffix.get(), Date_of_Birth.get(), Gender.get(), Nationality.get(), Civil_Status.get(), Department.get(), Designation.get(),
                         Qualified_Dep_Status.get(), Employee_Status.get(), Paydate.get(), Employee_Number.get(), Contact_Number.get(), Email.get(), Other_Social_Media.get(), Social_Media_Account_Id.get(),
                         Address_Line_1.get(), Address_Line_2.get(), City_Municipality.get(), State_Province.get(), Country.get(), Zip_Code.get(), Picture_Path.get(), Username, Password, image_data]

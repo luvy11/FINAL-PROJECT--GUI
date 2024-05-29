@@ -329,7 +329,7 @@ def main(username):
     back_button.config(image=back_image, compound=tk.LEFT, relief=tk.FLAT, activebackground="#065494", command=back)
     save_button = gui.button_design(main_frame, 52, 1976, 185,42, "#88DDDF", "#0C385E", "SAVE", ("Century Gothic", 17, 'bold')) # Create the save button
     save_button.config(command=saveData)
-    cancel_button = gui.button_design(main_frame, 245, 1976, 185, 42, "#5FB2DF", "#0C385E", "CANCEL", ("Century Gothic", 17, 'bold')) # Create the cancel button
+    cancel_button = gui.button_design(main_frame, 245, 1976, 185, 42, "#red", "#0C385E", "CANCEL", ("Century Gothic", 17, 'bold')) # Create the cancel button
     cancel_button.config(command=cancelData)
 
     window.state('zoomed') # Functionality to keep the page on auto-full screen
